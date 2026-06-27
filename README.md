@@ -13,10 +13,10 @@ go mod init github.com/hawl1/brick-hill-renderer # you may want to change the li
 
 3. get packages
 ```bash
-go get github.com/gofrs/uuid
-go get github.com/hawl1/brickgl
-go get github.com/spf13/pflag
-go get github.com/nfnt/resize # i dont give a damn even if its not being developed
+go install github.com/gofrs/uuid@latest
+go install github.com/hawl1/brickgl@latest
+go install github.com/spf13/pflag@latest
+go install github.com/nfnt/resize@latest # i dont give a damn even if its not being developed
 ```
 
 4. compile it down
